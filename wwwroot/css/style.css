@@ -1,0 +1,156 @@
+﻿* {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.label {
+    margin-bottom: .8rem;
+}
+
+.loader {
+    width: 50px;
+}
+
+.hide {
+    display: none;
+}
+
+#app, .container {
+    margin: auto;
+    padding: 3rem 0;
+    width: 70%;
+}
+
+.header {
+    margin: auto;
+    padding: 3rem 0;
+    width: 70%;
+    text-align: center;
+}
+
+.addToDo {
+    margin: auto;
+    padding: 3rem 0;
+    width: 70%;
+    text-align: center;
+}
+
+.discription {
+    width: 50%;
+    border-radius: .5rem;
+    height: 92%;
+    font-size: 1rem;
+}
+
+.btn {
+    background-color: white;
+    width: 20%;
+    height: 100%;
+    border-radius: .5rem;
+}
+
+.deletebtn {
+    border-radius: .5rem;
+    padding: .2rem;
+}
+
+.btn:hover {
+    background-color: aquamarine;
+    color: black;
+}
+
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem;
+}
+
+ul span li {
+    display: inline-flex;
+    padding: .5rem;
+    margin-left: .5rem;
+}    
+
+input[type="checkbox"] {
+    flex: 1;
+    margin-right: .5rem;
+}
+
+ul span:last-child {
+    padding: .5rem;
+    margin-right: 1em;
+}
+
+.todo {
+    margin: auto;
+    border: 1px solid black;
+    padding: 1rem 0;
+    width: 50%;
+    border-radius: .5rem;
+    margin-bottom: .5rem;
+    background-color: white;
+}
+
+.input-btn-add-todo {
+    height: 45px;
+}
+
+.delete-check {
+    display: inline-block;
+}
+
+.todosDone {
+    margin: auto;
+    border: 1px solid black;
+    padding: 1rem 0;
+    width: 50%;
+    border-radius: .5rem;
+    margin-bottom: .5rem;
+    background-color: white;
+    text-align: center;
+    color: lightcoral;
+}
+
+.done{
+    text-decoration: line-through;
+}
+
+.red {
+    color: red;
+}
+
+
+.animate {
+    animation-duration: 1s;
+    animation-name: slidein;
+    animation-iteration-count: initial;
+    animation-direction: alternate;
+}
+
+@keyframes slidein {
+    0% {
+        margin-left: 20%;
+        opacity: 1;
+    }
+    33% {
+        margin-left: 10%;
+        opacity: 0.7;
+    }
+    100% {
+        margin-left: 100%;
+        opacity: 0.4;
+    }
+}
+
